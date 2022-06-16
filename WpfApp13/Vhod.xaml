@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp13.Vhod"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp13"
+        mc:Ignorable="d"
+        Title="Vhod" Height="450" Width="800">
+    <Grid Background="Aqua">
+        <TextBlock HorizontalAlignment="Left" Margin="316,70,0,0" TextWrapping="Wrap" Text="Авторизация" VerticalAlignment="Top" Height="32" Width="180" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="55,127,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top" Width="105"/>
+        <TextBox x:Name="Name" HorizontalAlignment="Left" Height="23" Margin="40,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
+        <Button Content="Вход" HorizontalAlignment="Left" Margin="40,269,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <PasswordBox x:Name="Password" HorizontalAlignment="Left" Margin="40,214,0,0" VerticalAlignment="Top" Width="121"/>
+
+    </Grid>
+</Window>
